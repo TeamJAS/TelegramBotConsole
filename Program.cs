@@ -20,7 +20,7 @@ namespace TelegramBot
     }
     public class Program
     {
-        static TelegramBotClient Bot = new TelegramBotClient("5309237727:AAF9PXCCMjfKC8XXokB5GRIdBwlUCv1ac-E");
+        static TelegramBotClient Bot = new TelegramBotClient("557430547:AAGlbrSBQkXtxkEYISxuDa_C7C929oaJ1AM");
         static string fileName = "updates.json";
         static List<BotUpdate> botUpdates = new List<BotUpdate>();
         private static Task ErrorHandler(ITelegramBotClient arg1, Exception arg2, CancellationToken arg3)
